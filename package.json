@@ -1,0 +1,27 @@
+{
+  "name": "fsrc-config",
+  "version": "1.0.0",
+  "description": "A base package in the fsrc family",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsrc/fsrc-config.git"
+  },
+  "keywords": [
+    "fsrc",
+    "shell",
+    "script"
+  ],
+  "author": "Fredrik Andersson",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fsrc/fsrc-config/issues"
+  },
+  "homepage": "https://github.com/fsrc/fsrc-config#readme"
+}
