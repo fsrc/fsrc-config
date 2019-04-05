@@ -19,11 +19,10 @@
       }
     };
     if (exists(CONFIG)) {
-      read(CONFIG);
+      return read(CONFIG);
     } else {
       console.error("ERROR: Configuration missing\nUse '" + CONFIG + "'\nDefaults:\n" + JSON.stringify(defaults, null, 2));
-      process.exit(255);
+      return process.exit(255);
     }
-    return config;
   };
 }).call(this);

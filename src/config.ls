@@ -32,5 +32,4 @@ module.exports = (name, defaults) ->
 
     process.exit(255)
 
-  config
 

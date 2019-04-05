@@ -1,6 +1,6 @@
 {
   "name": "fsrc-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A base package in the fsrc family",
   "main": "dist/config.js",
   "directories": {
